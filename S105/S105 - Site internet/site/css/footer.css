@@ -1,0 +1,22 @@
+
+.footerif{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--clr-bleugris);
+    height: 150px;
+}
+
+.footerif *{
+    margin: auto;
+    color: var(--clr-blanc);
+    line-height: 3em;
+    text-align: center;
+}
+
+.footerif>nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}

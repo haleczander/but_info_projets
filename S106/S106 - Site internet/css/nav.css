@@ -1,0 +1,71 @@
+/* ----------------------------------------------------------------------------------- */
+/* NAV ------------------------------------------------------------------------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5em;
+    border-bottom:1px solid var(--clr-header);
+}
+
+img{
+    height: 3em;
+}
+
+nav, .subnav{
+    background-color: #006174;
+    color: var(--clr-header);
+    text-transform: uppercase; 
+}
+
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav > ul{
+    position:relative;
+
+    width: 70%;
+    height: 3em;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav > ul > li{
+    position:relative;
+    padding: 1em 0;
+    height: 5em;
+    width: 100%;
+    text-align:right; 
+}
+
+
+.subnav{
+    position: absolute;
+    right:0;
+    top: 3em;
+    
+    background-color: #428592;
+    display: none;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.subnav li{    
+    padding: 1em 0;
+    width: 25ch;
+    max-width: 15vw;
+    border:1px var(--clr-header) solid;
+}
+
+li:hover > .subnav{
+    display: flex;
+}
+
+
+    
